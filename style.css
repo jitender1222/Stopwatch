@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.center{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.outer{
+    background-color: blue;
+    height: 50px;
+    padding:70px;
+    border-radius:10px;
+}
+
+.inner{
+    background-color: lightblue;
+    padding:10px;
+    text-align: center;
+}
+
+.btn{
+    cursor:pointer;
+    margin-top: 10px;
+}
+
+.clr{
+    border: none;
+    padding: 5px;
+    border-radius:5px;
+    color: white;
+}
+
+.pause{
+    background-color: blueviolet;
+}
+
+.start{
+    background-color: red;
+}
+
+.reset{
+    background-color: green;
+}
